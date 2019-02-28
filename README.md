@@ -6,8 +6,6 @@
 
 ## Some helpful php $_files func
  The filesize() function in PHP would help you to check the filesize of the image, you can use it like this as stated below (reason i did not add it to the main code is for you to get your hands dirty on it).
-``` if(filesize($_FILES["myPicture"]["tmp_name"]) > 3000){
-echo "sorry your file is too big!";
-} ```
+` if(filesize($_FILES["myPicture"]["tmp_name"]) > 3000){ echo "sorry your file is too big!";} `
 
  Furthermore you can implement your code also for the image type using the filetype function.
