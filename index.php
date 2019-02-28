@@ -1,6 +1,12 @@
 <?php
 
 /*
+* Turn on error reporting
+* to catch and throw errors
+*/
+error_reporting(E_ALL);
+
+/*
 * Require the class created in the
 * metro_upload_class.php
 */
