@@ -20,7 +20,7 @@ require_once("metro_upload_class.php");
 * upload_class.php to aid uploads
 */
 
-echo "<form name = 'frm_add_picture' method = 'post'>";
+echo "<form name = 'frm_add_picture' method = 'post' enctype='multipart/form-data'>";
 echo "<input type = 'file' name = 'myPicture'>";
 echo "</form>";
 
